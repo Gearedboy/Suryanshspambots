@@ -1,6 +1,6 @@
 {
-    "name": "ᕼᗩᖇꇙᕼᑌˣᴰ.",
-    "logo": "https://te.legra.ph/file/ae14f293ef4a9352c5248.jpg",
+    "name": "☬ꢺᴜʀʏᴀɴꜱʜ𒆜.",
+    "logo": "https://telegra.ph/file/f46e03b73dfdd56fd8f3c.jpg",
     "keywords": [
         "telegram",
         "telethon",
@@ -8,7 +8,7 @@
         "PythonX",
         "SpamBots"
     ],
-    "repository": "https://github.com/harshdemon/Harshu-spambots",
+    "repository": "https://github.com/Gearedboy/Suryanshspambots",
     "env": {
       "BOT_TOKEN": {
         "description": "Telegram Bots Token Get This value from https://t.me/BotFather",
@@ -72,12 +72,12 @@
       },
       "OWNER_ID": {
         "description": "Owner Id",
-        "value": "5114061497",
+        "value": "6729527564",
         "required": true
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku api key to update your bot",
-        "value": "e6810293-e42f-4345-b1b2-42e45a7b6c92",
+        "value": "",
         "required": false 
       },
       "HEROKU_APP_NAME": {
