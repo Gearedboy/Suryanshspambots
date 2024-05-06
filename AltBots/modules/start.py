@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/HarshuXDBots"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Wrostdemon")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Geared_boyz"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Geared_boyz")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/harshdemon/Harshu-spambots")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Gearedboy/Suryanshspambots")
     ]
 ]
 
@@ -34,13 +34,13 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [ᕼᗩᖇꇙᕼᑌˣᴰ](https://t.me/Harshu_XD1)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ : [☬ꢺᴜʀʏᴀɴꜱʜ𒆜](https://t.me/Suryansh_krr)**\n\n"
         TEXT += f"» **ʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://te.legra.ph/file/ae14f293ef4a9352c5248.jpg",
+                    "https://telegra.ph/file/f46e03b73dfdd56fd8f3c.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
     )
