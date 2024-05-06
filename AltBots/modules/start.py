@@ -11,8 +11,6 @@ START_BUTTON = [
         Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/Geared_boyz"),
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/Geared_boyz")
     ],
-    [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Gearedboy/Suryanshspambots")
     ]
 ]
 
